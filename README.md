@@ -5,11 +5,12 @@
 * 支持日志记录，可选择输出到文件/stdout/stderr，可选择日志保留时长等常用配置
 * Basic Auth认证，支持配置多个用户名密码
 * 支持HTTPS配置，项目带了自签证书用于测试，使用方法
-  * 服务端打开SSL配置，使用项目默认带的证书
+  * 服务端打开SSL配置，使用项目默认带的证书，域名为：example.com
   * 客户端导入client.crt证书
-  * 访问测试https://ip:port
-
-* 有一个简单的落地页(首页
+  * 域名解析为服务器IP
+* 访问测试https://example.com:port
+  
+* 有一个简单的落地页(首页)
 
 ### 下载
 `git clone https://github.com/VVFock3r/mysql_exporter.git`

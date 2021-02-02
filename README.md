@@ -24,3 +24,8 @@ mysql:
 
 ### 访问测试
 `http://ip:9100/`
+
+### 屏幕截图
+
+![screen_capture](https://raw.github.com/VVFock3r/mysql_exporte/docs/screen_capture.png)
+

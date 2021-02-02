@@ -11,7 +11,8 @@
 `git clone https://github.com/VVFock3r/mysql_exporter.git`
 
 ### 配置数据库
-`/etc/conf/mysql_exporter`  
+`/etc/conf/mysql_exporter.yml`  
+
 ```
 mysql:  
    host: 192.168.73.129  
@@ -20,7 +21,11 @@ mysql:
    password: 123456
 ```
 ### 运行服
-`go run main.go`
+方式一：编译并运行：`go run main.go`
+
+方式二：编译好的二进制文件：`./main`
+
+
 
 ### 访问测试
 `http://ip:9100/`

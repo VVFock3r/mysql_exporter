@@ -8,7 +8,7 @@
 * 有一个简单的落地页(首页
 
 ### 下载
-`wget -c https://github.com/VVFock3r/mysql_exporter`
+`git clone https://github.com/VVFock3r/mysql_exporter.git`
 
 ### 配置数据库
 `/etc/conf/mysql_exporter`  

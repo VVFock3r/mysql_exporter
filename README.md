@@ -8,8 +8,7 @@
   * 服务端打开SSL配置，使用项目默认带的证书，域名为：example.com
   * 客户端导入client.crt证书
   * 域名解析为服务器IP
-* 访问测试https://example.com:port
-  
+  * 访问测试https://example.com:port
 * 有一个简单的落地页(首页)
 
 ### 下载

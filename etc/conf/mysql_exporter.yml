@@ -1,0 +1,41 @@
+---
+mysql:
+  host: 192.168.73.129
+  port: 3306
+  username: root
+  password: 123456
+#  db: information_schema
+#  charset: utf8mb4
+#  timezone: Local
+#  conn_timeout: 3s
+#  read_timeout: 3s
+
+web:
+#  addr:
+#    host: 0.0.0.0
+#    port: 9100
+#    path: /metrics/
+#  auth:
+#    - username: admin
+#      password: $2y$05$ciTmJIzjqw3imEwIFQq.9ec7MSg1dhmyym0XBpALuS5qo4VbXhKQ6
+#    - username: abc
+#      password: $2y$05$ciTmJIzjqw3imEwIFQq.9ec7MSg1dhmyym0XBpALuS5qo4VbXhKQ6
+#  ssl:
+#    cert_file: "etc/ssl/example.com.crt"
+#    key_file: "etc/ssl/example.com.pem"
+
+
+logger:
+#  global:
+#    level: warning
+#  file:
+#    enabled: false
+#    filename: logs/mysql_exporter.log
+#    max_age: 0
+#    max_size: 28
+#    max_backups: 14
+#    compress: false
+#    stdout:
+#      enabled: false
+#  stderr:
+#    enabled: true

@@ -36,5 +36,5 @@ mysql:
 
 ### 屏幕截图
 
-![screen_capture](https://raw.github.com/VVFock3r/mysql_exporte/docs/screen_capture.png)
+![image](https://raw.github.com/VVFock3r/mysql_exporter/main/docs/screen_capture.png)
 
